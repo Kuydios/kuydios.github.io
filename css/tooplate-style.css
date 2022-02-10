@@ -706,3 +706,13 @@ section {
   padding: 0 10px;
 }
 
+.landingpage img{
+  position: relative;
+  left: 230px;
+}
+
+.ldtext {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
