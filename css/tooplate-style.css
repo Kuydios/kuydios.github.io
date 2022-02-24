@@ -575,7 +575,14 @@ b, strong {
 
 .img-fluid {
   position: relative;
-  bottom: 50px;
+  bottom: 70px;
+  left: 0px;
+  max-width: 140%;
+}
+
+.img-fluid2 {
+  position: relative;
+  bottom: 40px;
   left: 0px;
   max-width: 140%;
 }
@@ -667,8 +674,8 @@ section {
 }
 
 .footer {
-  background-color: #F9943A;
-  color: rgb(255, 255, 255);
+  
+  color: #ffffff;
 }
 
 .socials {
@@ -684,13 +691,14 @@ section {
 
 .socials a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #5b5b5b;
 }
 
 .decor-img {
   position: absolute;
   top: 200px;
   left: 158px;
+  
 }
 
 .decor-img2 {
@@ -711,8 +719,20 @@ section {
   left: 230px;
 }
 
+.landingpage iframe{
+  position: relative;
+  left: 230px;
+}
 .ldtext {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.footer {
+  background-color: #F9943A;
+}
+
+.linkedin a {
+  color: #ffffff;x
 }
